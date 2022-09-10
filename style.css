@@ -1,0 +1,119 @@
+div{
+    margin: 0 auto;
+}
+.header{
+    top: 2.5rem;
+    width: 76.5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 19rem;
+    align-items: center;
+    left: 15.5rem;
+    right: 15.5rem;
+}
+a{
+    text-decoration: none;
+    color: #111213;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 2.36rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search_form{
+    width: 52px;
+    height: 20px;
+}
+
+.vertical_line{
+    border-left: 2px;
+    background: #000000;
+    width: 2px;
+    height: 48px;
+    left: 50%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 2.36rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    
+}
+
+.forms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.search_box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+   
+}
+
+.horisontal_line{
+    background: #111213;
+    width: 136px;
+    height: 1px;
+    top: 46px;
+    left: 0px;
+    margin: 0;
+}
+
+.icon_and_input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 28px;
+    padding-bottom: 1px;
+    gap: 0.5 rem;
+}
+
+.search_icon{
+    width: 28px;
+    height: 28px;
+}
+
+#query{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111213;
+    opacity: 0.6;
+   padding-right: 0;
+    border: none;
+}
+
+.searchin_form{
+    width: 8rem;
+}
+
+.subscribe_btn{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 159px;
+    height: 64px;
+    background: #111213;
+}
