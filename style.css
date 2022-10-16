@@ -1,0 +1,928 @@
+
+.container{
+    width: 91.5rem;
+    max-width: 1464px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+
+
+.header{
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 19rem;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color: #111213;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.logo::after{
+    content:" "; 
+    position: absolute;
+    background: #000000;
+    width: 1px;
+    height: 48px;
+    margin-left: 1.18rem;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 2.36rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search_form{
+    width: 52px;
+    height: 20px;
+}
+
+.nav{
+    display: flex;
+    gap: 2.36rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    
+}
+
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.search_box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.icon_and_input{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 28px;
+    padding-bottom: 1px;
+    gap: 0.5 rem;
+}
+
+.icon_and_input::after{
+    content:" "; 
+    position: absolute;
+    background: #000000;
+    width: 136px;
+    height: 1px;
+    margin-top: 2rem;
+}
+
+.search_icon{
+    width: 28px;
+    height: 28px;
+}
+
+#query{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111213;
+    padding-right: 0;
+    border: none;
+}
+
+#query::placeholder{
+    opacity: 0.6;
+}
+
+.searchin_form{
+    width: 8rem;
+}
+
+.subscribe_btn{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 159px;
+    height: 64px;
+    background: #111213;
+}
+
+.slider{
+    margin-left: 128px;
+    margin-right: 128px;
+    width: 100%;
+    height: 440px;
+    margin-top: 40px;
+    background-color: #111213;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: inherit;
+    bottom: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 90px;
+    background-color: white;
+  }
+  .prev{
+    margin-left: 2px;
+  }
+
+  .text_info{
+
+    width: 587px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+.main_text{
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    width: 587px;
+    height: 128px;
+}
+
+.info_text{
+    margin-left: 50px;
+    margin-top: -50px;
+    height: 64px;
+    z-index: 1;
+    width: 407px;
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.Slide1_image{
+    z-index: 1;
+    position: inherit;
+
+}
+
+.subscribe_btn_white{
+    color: #111213;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 159px;
+    height: 64px;
+    background: #FFFFFF;
+}
+.buttons_on_slide{
+    margin-left: 50px;
+    margin-top: 48px;
+}
+.read_full{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.dots{
+    display: flex;
+    z-index: 3;
+    margin-top: 400px;
+}
+
+.dot{
+    position: inherit;
+    bottom: 0 auto;
+    width: 5px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: black;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.content_container{
+    margin-top: 4rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main_news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left_news{
+    width: 18rem;
+    margin-right: 8rem;
+
+}
+.news_box{
+    margin-right: 8rem;
+}
+
+
+.title_left_news{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #111213;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title_left_news::after{
+    content:" "; 
+    position: absolute;
+    background: #000000;
+    width: 18rem;
+    height: 2px;
+    margin-top: 5rem;
+}
+
+.Esthetics_of_Columns{
+
+    margin-top: 3rem;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.date{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.article_title{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111213;
+    margin-top: 1rem;
+}
+h6{
+    font-size: 16px;
+    margin-bottom: 1rem;
+    margin-top: 0.7rem;
+}
+.firs_line_paragraph{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #111213;
+    margin-top: 0.7rem;
+}
+
+
+.read_full_first_column{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+text-decoration-line: underline;
+color: #111213;
+margin-top: 0.7rem;
+}
+
+.queen_monuments{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.right_line_paragraph{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #111213;
+    margin-top: 0.5rem;
+}
+
+.title_right_news{
+    margin-top: 4rem;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #111213;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title_right_news::after{
+    content:" "; 
+    position: absolute;
+    background: #000000;
+    width: 18rem;
+    height: 2px;
+    margin-top: 5rem;
+}
+
+.Theater_in_Ancient_World{
+    margin-top: 4rem;
+}
+
+.Sculptures_of_Human_Beauty{
+    margin-top: 4rem;
+}
+
+.right_news{
+
+   width: 24.5rem;
+}
+
+
+
+.educational_img{
+    width: 808px;;
+}
+.educational_news_title{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #111213;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 36px;
+}
+
+.educational_news_title::after{
+    content:" "; 
+    position: absolute;
+    width: 808px;
+    height: 2px;
+    background: #111213;
+     margin-top: 4rem;
+}
+.title_library_history{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 64px;
+    color: #111213;
+}
+
+
+.educational_paragraph{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #111213;
+}
+
+
+
+.read_full_educat{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: #111213;
+}
+
+.right_news_first_paragraph{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111213;
+}
+.right_article_title{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111213;
+}
+.latest_line_paragraph{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #111213;
+}
+
+.read_full_right{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: #111213;
+}
+
+.greatest_artworks{
+    padding-top: 68px;
+}
+
+.read_full_greates_artw{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: #111213;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.read_full_greates_artw::after{
+    content:" "; 
+    position: absolute;
+    width: 288px;
+    height: 2px;
+    background: #111213;
+    margin-top: 12rem;
+}
+
+.right_news_first_paragraph_publicists{
+    margin-top: 8rem;
+}
+
+.title_details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.right_news_first_paragraph_publicists{
+    padding-bottom: 36px;
+}
+.alexandra_img{
+    width: 56px;
+    height: 56px;;
+}
+.name_prof{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 182px;
+    height: 64px;
+    padding-left: 16px;
+}
+
+.avatar_name{
+    width: 182px;
+    height: 32px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #111213;
+    padding: 0;
+    margin: 0;
+}
+
+.avatar_proffesion{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #111213;
+    opacity: 0.6;
+    padding: 0;
+    margin: 0;
+}
+
+.right_title_{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111213;
+    padding-top: 24px;
+}
+
+.anna_maria{
+    margin-top: 96px;
+}
+.stephen_junior{
+    margin-top: 96px;
+}
+
+.alexandra_donavan_2{
+    margin-top: 100px;
+}
+
+.discover_more{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: #111213;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 16px 72px;
+}
+
+
+.subscribe_box{
+    background: #111213;
+    width: 87%;
+    height: 336px;
+    display: flex;
+}
+
+.column_left{
+    width: 100px;
+    height: 120px;
+    padding-top: 216px;
+}
+
+.olive_branch{
+    width: 175.18px;
+    height: 136px;
+    padding-top: 32px;
+    padding-left: 116px;
+}
+
+.subscribe_box_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30rem;
+}
+.join_us{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.newsletter{
+    color: #FB9032;
+}
+.subscribe_box_information{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.subscribe_btn_email{
+    display: flex;
+    flex-direction: row nowrap;
+    gap: 0px;
+}
+.email_placeholder{
+    background: none;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 1rem 10rem 1rem 1.5rem;
+}
+.email_subscribe_btn{
+    color: #111213;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 159px;
+    height: 64px;
+    background: #FFFFFF;
+}
+
+
+
+.lark{
+    width: 107px;
+    height: 191.91px;
+    padding-top: 33px;
+    padding-left: 110px;
+}
+.column_right{
+    width: 100px;
+    height: 120px;
+    padding-top: 216px;
+    padding-left: 84px;
+}
+
+.article_amount_info{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.article_row{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 80%;
+    margin-top: 6rem;
+    margin-bottom: 16rem;
+}
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+.footer{
+    width: 100%;
+    background-color: #111213;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 381px;
+    padding-top: 3rem;
+    
+}
+
+.footer_first_line{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+    width: 301px;
+    height: 216px;
+}
+
+.footer_first_title{
+    width: 175px;
+    height: 32px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.footer_first_line_info{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.social_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 156px;
+    height: 36px;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    color: #FFFFFF;
+    width: 127px;
+    height: 232px;
+}
+.f_links_title{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.links_for_footr{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home{
+    color: #FFFFFF;
+}
+.blogs{
+    color: #FFFFFF;
+}
+.wikipedia{
+    color: #FFFFFF;
+}
+.encyclopedia{
+    color: #FFFFFF;
+}
+.contact_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    color: #FFFFFF;
+    width: 127px;
+    height: 232px;
+}
+.footer_mail{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 271px;
+height: 32px;
+
+}
+.contact_mail_footer{
+    color: #FFFFFF;
+}
+.footer_address{
+    display: flex;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 271px;
+height: 32px;
+
+}
+.address_footer{
+    color: #FFFFFF;
+}
+.phone_number_footer{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 182px;
+height: 32px;
+}
+.phone_number_footer{
+    color: #FFFFFF;
+}
+
+.contact_title_footer{
+    width: 96px;
+height: 32px;
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.powered_by_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    color: #FFFFFF;
+    width: 127px;
+    height: 232px;
+}
+
+.powered_by_title_footer{
+    width: 146px;
+    height: 32px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.wikipedia_wooter_powered_by{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 36px;
+}
+.wikipedia_footer{
+    color: #FFFFFF;
+}
+
+.footer::after{
+    content:" "; 
+    position: absolute;
+    width: 37rem;
+    height: 2px;
+    background: #FFFFFF;
+    margin-top: 19rem;
+}
+
+.rights_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
