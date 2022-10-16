@@ -9,15 +9,14 @@
 </head>
 <body>
     <div class="container">
-    <div class="div_header">
         <div class="header">
             <div class="navigation">
                 <a href="#" class="logo">History Today</a>
-                <nav>
+                <div class="nav">
                     <a href="#">Home</a>
                     <a href="#">Blogs</a>
                     <a href="#">Encyclopedia</a>
-                </nav>
+                </div>
             </div>
             <div class="forms">
                 <div class="search_box">
@@ -27,12 +26,301 @@
                             <input type="search" class="searchin_form" name="search" id="query" placeholder="Search">
                         </form>
                     </div>
-                    <!--<div class="horisontal_line"></div>-->
                 </div>
                 <button class="subscribe_btn" type="button">Subscribe</button>
             </div>
         </div>
+        <div class="slider">
+                <a class="prev">❮</a>
+            <div class="text_info">
+                <p class="main_text">Beauty of Romans, how they Captured it over the years</p>
+                <p class="info_text">Learn more about Ancient romans and their Ways of capturing Beauty </p>
+                <div class="buttons_on_slide">
+                    <a href="#" class="read_full">Read full article</a>
+                    <button class="subscribe_btn_white">Subscribe</button>
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            <img src="assets/vlad-kutepov-utAMCFc1-SY-unsplash-transformed.png" alt="Slide1_image" class="Slide1_image">
+            <a class="next">❯</a>
+        </div>
+        <div class="content_container">
+            <div class="news_box">
+            <div class="main_news">
+                <div class="left_news">
+                <div class="title_left_news">Architecture</div>
+                    <div class="Esthetics_of_Columns">
+                        <img src="assets/Rectangle 12.png" alt="architecture_img" class="architecture_img">
+                        <div class="details">
+                            <div class="date">
+                                <img src="assets/icon clock.svg" alt="clock_icon" class="clock_icon">
+                                <h6>11.02.2022</h6>
+                            </div>
+                            <div class="author">James Randall</div>
+                        </div>
+                        <div class="article_title">Esthetics of Columns</div>
+                        <p class="firs_line_paragraph">Understanding the esthetics of columns is a hard concept. but, everything wee see...</p>
+                        <a href="#" class="read_full_first_column">Read full article</a>
+                    </div>
+                    <div class="queen_monuments">
+                        <img src="assets/Rectangle ..png" alt="queen_monuments" class="queen_monuments_img">
+                        <div class="details">
+                            <div class="date">
+                                <img src="assets/icon clock.svg" alt="clock_icon" class="clock_icon">
+                                <h6>11.02.2022</h6>
+                            </div>
+                            <div class="author">James Randall</div>
+                        </div>
+                        <div class="article_title">Queen Monuments</div>
+                        <p class="firs_line_paragraph">Every Era had a queen that put herself in history for centuries..</p>
+                        <a href="#" class="read_full_first_column">Read full article</a>
+                    </div>
+                    <div class="estethicts_of_greeks">
+                        <img src="assets/Rectangle.png" alt="estethicts_of_greeks" class="estethicts_of_greeks_img">
+                        <div class="details">
+                            <div class="date">
+                                <img src="assets/icon clock.svg" alt="clock_icon" class="clock_icon">
+                                <h6>11.02.2022</h6>
+                            </div>
+                            <div class="author">James Randall</div>
+                        </div>
+                        <div class="article_title">Esthetics of Greeks</div>
+                        <p class="firs_line_paragraph">Understanding the esthetics of columns is a hard concept. but, everything wee see...</p>
+                        <a href="#" class="read_full_first_column">Read full article</a>
+                    </div>
+                </div>
+
+                <div class="right_news">
+                    <div class="Byzantian_Kings">
+                        <div class="article_title">Byzantian Kings</div>
+                        <p class="right_line_paragraph">How did ancient kings effect our times?</p>
+                        <img src="assets/Rectangle 14.png" alt="bizantian_kings_img" class="bizantian_kings_img">
+                        <div class="details">
+                            <div class="date">
+                                <img src="assets/icon clock.svg" alt="clock_icon" class="clock_icon">
+                                <h6>11.02.2022</h6>
+                            </div>
+                            <div class="author">James Randall</div>
+                        </div>
+                        <p class="right_line_paragraph">In the 5th Century when Western Roman Empire has collapsed, on the East a new Power has rises from theAshes, with the name of Byzantium Empire...</p>
+                        <a href="#" class="read_full_first_column">Read full article </a>
+                    </div>
+                    <div class="title_right_news">History and Culture</div>
+                    <div class="Theater_in_Ancient_World">
+                        <div class="article_title">Theater in Ancient World</div>
+                        <p class="right_line_paragraph">Theaters and their meaning</p>
+                        <img src="assets/Rectangle .png" alt="Theater_in_Ancient_World" class="Theater_in_Ancient_World_img">
+                        <div class="details">
+                            <div class="date">
+                                <img src="assets/icon clock.svg" alt="clock_icon" class="clock_icon">
+                                <h6>11.02.2022</h6>
+                            </div>
+                            <div class="author">James Randall</div>
+                        </div>
+                        <p class="right_line_paragraph">Ancient Greek theatre was a theathrical culture that flourished in ancient Greece from 700 BC. The city of Athens, which became a significant, cultural and political place during this period...</p>
+                        <a href="#" class="read_full_first_column">Read full article </a>
+                    </div>
+                    <div class="Sculptures_of_Human_Beauty">
+                        <div class="article_title">Sculptures of Human Beauty</div>
+                        <p class="right_line_paragraph">Beauty of Humans</p>
+                        <img src="assets/Rectangle   .png" alt="Sculptures_of_Human_Beauty" class="Sculptures_of_Human_Beauty_img">
+                        <div class="details">
+                            <div class="date">
+                                <img src="assets/icon clock.svg" alt="clock_icon" class="clock_icon">
+                                <h6>11.02.2022</h6>
+                            </div>
+                            <div class="author">James Randall</div>
+                        </div>
+                        <p class="right_line_paragraph">The sculpture of ancient Greece is the main surviving type of fine ancient Greek art as, with the exception of painted ancient Greek pottery,</p>
+                        <a href="#" class="read_full_first_column">Read full article </a>
+                    </div>
+                </div>
+            </div>
+            <div class="educational_news">
+                <div class="educational_news_title">Educational</div>
+                <img src="assets/Rectangle 17.png" alt="educational_img" class="educational_img">
+                <div class="title_library_history">Library of History</div>
+                <p class="educational_paragraph">Diodorus Siculus, Greek historian of Agyrium in Sicily, ca. 80–20 BCE, wrote forty books world history, called Library of History, in three parts: mythical history of peoples, non-Greek, Greek, to the Trojan War; history to Alexander’s death (323 BCE); and history to 54 BCE, Complete Books 1–5...</p>
+                <a href="#" class="read_full_educat">Read full article </a>
+            </div>
+        </div>
+            <div class="latest_news">
+                <div class="oldest_cities_in_italy">
+                <p class="right_news_first_paragraph">Most Popular News</p>
+                    <div class="right_article_title">Oldest Cities in Italy</div>
+                    <p class="latest_line_paragraph">There are several cities in Italy That has an unique History, For Example City Named Volterra</p>
+                    <a href="#" class="read_full_right">Read full article </a>
+                </div>
+
+                <div class="greatest_artworks">
+                        <div class="right_article_title">Greatest Artworks</div>
+                        <p class="latest_line_paragraph">In Roman Museums You can Find greatest pieces of art that humankind has ever seen</p>
+                        <a href="#" class="read_full_greates_artw">Read full article </a>
+                </div>
+                <p class="right_news_first_paragraph_publicists">Stories from Publicists</p>
+
+                <div class="alexandra_donavan">
+                    <div class="title_details">
+                        <img src="assets/Ellipse 2.png" alt="avatar" class="alexandra_img">
+                        <div class="name_prof">
+                        <h6 class="avatar_name">Alexandra Donavan</h6>
+                        <h6 class="avatar_proffesion">Archeologist</h6>
+                    </div>
+                    </div>
+                    <img src="assets/Rectangle 16.png" alt="#" class="avatar_article_img">
+                    <div class="right_title_">Findings in Palermo</div>
+                    <p class="latest_line_paragraph">Me and my collegues were on a mission, in Palermo’s most Popular Archeological Places...</p>
+                    <a href="#" class="read_full_right">Read full article </a>
+                </div>
+
+                <div class="anna_maria">
+                    <div class="title_details">
+                        <img src="assets/Ellipse .png" alt="avatar" class="anna_img">
+                        <div class="name_prof">
+                        <h6 class="avatar_name">Anna Maria</h6>
+                        <h6 class="avatar_proffesion">Archeologist</h6>
+                    </div>
+                    </div>
+                    <div class="right_title_">Expedition in Sahara</div>
+                    <p class="latest_line_paragraph">On a Expedition to Sahara, me, my collegues were thrilled to discover ancient underground</p>
+                    <a href="#" class="read_full_right">Read full article </a>
+                </div>
+                <div class="stephen_junior">
+                    <div class="title_details">
+                        <img src="assets/Ellipse 3.png" alt="avatar" class="anna_img">
+                        <div class="name_prof">
+                        <h6 class="avatar_name">Stephen Junior</h6>
+                        <h6 class="avatar_proffesion">Historic</h6>
+                    </div>
+                    </div>
+                    <div class="right_title_">Destructive Points</div>
+                    <p class="latest_line_paragraph">What are Destructive Points of History where Everything changed course of time?</p>
+                    <a href="#" class="read_full_right">Read full article </a>
+                </div>
+                <div class="alexandra_donavan_2">
+                    <div class="title_details">
+                        <img src="assets/Ellipse 2.png" alt="avatar" class="alexandra_img">
+                        <div class="name_prof">
+                        <h6 class="avatar_name">Alexandra Donavan</h6>
+                        <h6 class="avatar_proffesion">Archeologist</h6>
+                    </div>
+                    </div>
+                    <img src="assets/Rectangle      .png" alt="#" class="avatar_article_img">
+                    <div class="right_title_">Findings in Palermo</div>
+                    <p class="latest_line_paragraph">Me and my collegues were on a mission, in Palermo’s most Popular Archeological Places...</p>
+                    <a href="#" class="read_full_right">Read full article </a>
+                    <button class="discover_more" type="button">Discover More</button>
+                </div>
+            </div>
+        </div>    
+        <div class="subscribe_box">
+            <img src="assets/Group 17.png" alt="column left" class="column_left">
+            <img src="assets/Group 16.png" alt="olive branch" class="olive_branch">
+            <div class="subscribe_box_text">
+                <p class="join_us">Join our <span class="newsletter">Newsletter</span></p>
+                <p class="subscribe_box_information">get a weekly notifications of our stories, publications and more, learn history with us.</p>
+                <div class="subscribe_btn_email">
+                    <input type="text" value="Email" class="email_placeholder">
+                    <input type="submit" value="Subscribe" class="email_subscribe_btn">
+                  </div>
+                <p class="article_amount_info">Over 100+ new Articles in a day</p>
+            </div>
+            <img src="assets/Group 19.png" alt="lark" class="lark">
+            <img src="assets/Group 18.png" alt="column right" class="column_right">
+        </div>
+        <div class="article_row">
+            <div class="destruction_of_greece">
+                <img src="assets/Rectangle ...png" alt="destruction of greece" class="destruction_of_greece_img">
+                <div class="details">
+                    <div class="date">
+                        <img src="assets/icon clock.svg" alt="clock_icon" class="clock_icon">
+                        <h6>11.02.2022</h6>
+                    </div>
+                    <div class="author">James Randall</div>
+                </div>
+                <div class="article_title">Destruction of Greece</div>
+                <p class="firs_line_paragraph">Read this article about the fall of great greek empire and to what i lead the entire human history</p>
+                <a href="#" class="read_full_first_column">Read full article</a>
+            </div>
+
+            <div class="roman_cathedrals">
+                <img src="assets/Rectangle [[.png" alt="destruction of greece" class="destruction_of_greece_img">
+                <div class="details">
+                    <div class="date">
+                        <img src="assets/icon clock.svg" alt="clock_icon" class="clock_icon">
+                        <h6>11.02.2022</h6>
+                    </div>
+                    <div class="author">James Randall</div>
+                </div>
+                <div class="article_title">Roman Cathedrals</div>
+                <p class="firs_line_paragraph">Read this article about the fall of great greek empire and to what i lead the entire human history</p>
+                <a href="#" class="read_full_first_column">Read full article</a>
+            </div>
+            <div class="Design_for_greatness">
+                <img src="assets/Rectangle''.png" alt="destruction of greece" class="destruction_of_greece_img">
+                <div class="details">
+                    <div class="date">
+                        <img src="assets/icon clock.svg" alt="clock_icon" class="clock_icon">
+                        <h6>11.02.2022</h6>
+                    </div>
+                    <div class="author">James Randall</div>
+                </div>
+                <div class="article_title">Design for Greatness</div>
+                <p class="firs_line_paragraph">Read this article about the fall of great greek empire and to what i lead the entire human history</p>
+                <a href="#" class="read_full_first_column">Read full article</a>
+            </div>
+        </div>
+        </div>
     </div>
+    <div class="footer_container">
+    <div class="footer">
+        <div class="footer_first_line">
+            <div class="footer_first_title">History Today</div>
+            <div class="footer_first_line_info">Our newslatter company, based on sharing news of culture, history, archelogy and more.</div>
+            <div class="social_icons">
+                <img src="assets/Vectortwitter.svg" alt="twitter" class="twitter">
+                <img src="assets/Vectorfb.svg" alt="facebook" class="fb">
+                <img src="assets/Vectorwp.svg" alt="Wikipedia" class="wiki">
+            </div>
+        </div>
+        <div class="footer_links">
+            <div class="f_links_title">Links</div>
+            <div class="links_for_footr">
+                <a href="#" class="home">Home</a>
+                <a href="#" class="blogs">Blogs</a>
+                <a href="#" class="wikipedia">Wikipedia</a>
+                <a href="#" class="encyclopedia">Encyclopedia</a>
+            </div>
+        </div>
+        <div class="contact_footer">
+            <div class="contact_title_footer">Contact</div>
+            <div class="footer_mail">
+                <img src="assets/mail.png" alt="mail" class="mail_icon">
+                <a href="#" class="contact_mail_footer">historytoday@gmail.com</a>
+            </div>
+            <div class="footer_address">
+                <img src="assets/map-pin.png" alt="address" class="address_icon_footer">
+                <a href="#" class="address_footer">France, Champs-Élysées</a>
+            </div>
+            <div class="phone_number_footer">
+                <img src="assets/phone.png" alt="phone number" class="number_icon_footer">
+                <a href="#" class="phone_number_footer">+33 944 234 122</a>
+            </div>
+        </div>
+        <div class="powered_by_footer">
+            <div class="powered_by_title_footer">Powered By</div>
+            <div class="wikipedia_wooter_powered_by">
+                <img src="assets/Vectorwp.svg" alt="wikipedia" class="wikipedia_icon_footer">
+                <a href="#" class="wikipedia_footer">Wikipedia</a>
+            </div>
+        </div>
     </div>
+    <div class="rights_footer">@ 2022, All Rights Reserved</div>
+
+</div>
 </body>
 </html>
