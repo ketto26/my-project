@@ -31,22 +31,30 @@
             </div>
         </div>
         <div class="slider">
-                <a class="prev">❮</a>
-            <div class="text_info">
-                <p class="main_text">Beauty of Romans, how they Captured it over the years</p>
-                <p class="info_text">Learn more about Ancient romans and their Ways of capturing Beauty </p>
-                <div class="buttons_on_slide">
-                    <a href="#" class="read_full">Read full article</a>
-                    <button class="subscribe_btn_white">Subscribe</button>
+            <div class="slider_content">
+                <div class="upper_content">
+                    <a href="#" class="left_arrow">❮</a>
+                    <div class="main_content">
+                        <p class="main_text">Beauty of Romans, how they Captured it over the years</p>
+                        <p class="info_text">Learn more about Ancient romans and their Ways of capturing Beauty </p>
+                        <div class="buttons_on_slide">
+                        <a href="#" class="read_full">Read full article</a>
+                        <button class="subscribe_btn_white">Subscribe</button>
+                        </div>
+                    </div>
+                    <a href="#" class="right_arrow">❯</a>
+                </div>
+                <div class="below_content">
+                    <a href="#" class="slider_dots"></a>
+                    <a href="#" class="slider_dots"></a>
+                    <a href="#" class="slider_dots"></a>
+                    <a href="#" class="slider_dots"></a>
+                    <a href="#" class="slider_dots"></a>
                 </div>
             </div>
-            <div class="dots">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
+            <div class="slider_background">
+                <img src="assets/vlad-kutepov-utAMCFc1-SY-unsplash-transformed.png" alt="background image" class="slider_background_img">
             </div>
-            <img src="assets/vlad-kutepov-utAMCFc1-SY-unsplash-transformed.png" alt="Slide1_image" class="Slide1_image">
-            <a class="next">❯</a>
         </div>
         <div class="content_container">
             <div class="news_box">
@@ -218,19 +226,22 @@
             </div>
         </div>    
         <div class="subscribe_box">
-            <img src="assets/Group 17.png" alt="column left" class="column_left">
-            <img src="assets/Group 16.png" alt="olive branch" class="olive_branch">
-            <div class="subscribe_box_text">
+            <div class="subscribe_box_content">
                 <p class="join_us">Join our <span class="newsletter">Newsletter</span></p>
                 <p class="subscribe_box_information">get a weekly notifications of our stories, publications and more, learn history with us.</p>
                 <div class="subscribe_btn_email">
-                    <input type="text" value="Email" class="email_placeholder">
+                    <input type="text" placeholder="Email" class="email_placeholder">
                     <input type="submit" value="Subscribe" class="email_subscribe_btn">
                   </div>
                 <p class="article_amount_info">Over 100+ new Articles in a day</p>
+
             </div>
-            <img src="assets/Group 19.png" alt="lark" class="lark">
-            <img src="assets/Group 18.png" alt="column right" class="column_right">
+            <div class="subscribe_box_background">
+                <img src="assets/Group 17.png" alt="left_column" class="left_column">
+                <img src="assets/Group 16.png" alt="olive branch" class="olive_branch">
+                <img src="assets/Group 19.png" alt="larc" class="larc">
+                <img src="assets/Group 18.png" alt="right column" class="right_column">
+            </div>
         </div>
         <div class="article_row">
             <div class="destruction_of_greece">
@@ -276,7 +287,8 @@
         </div>
         </div>
     </div>
-    <div class="footer_container">
+
+    <footer>
     <div class="footer">
         <div class="footer_first_line">
             <div class="footer_first_title">History Today</div>
@@ -321,6 +333,6 @@
     </div>
     <div class="rights_footer">@ 2022, All Rights Reserved</div>
 
-</div>
+</footer>
 </body>
 </html>
